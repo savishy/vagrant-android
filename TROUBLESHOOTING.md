@@ -25,3 +25,14 @@ Open up port 5555 on the VM (Port Forwarding)
 
 Next, enable ADB Debugging and ADB over WiFi on the Android VM's Developer Settings.
 
+### Troubleshooting Audio
+
+The audio stutters and plays very slow with this combination. 
+
+* With 1 CPU and 2048MB allocated to the VM
+* Settings > Audio: `PulseAudio` - `ICH-AC97`
+
+The audio still stutters a lot (but is relatively better) with
+* With 1 CPU and 2048MB allocated to the VM
+* Settings > Audio: `PulseAudio` - `HD Audio`
+

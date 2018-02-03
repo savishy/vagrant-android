@@ -12,6 +12,20 @@ Vagrant Boxes using Android.
 * Head over to the releases page and download an OVA file for the Android version you want.
 * Import it into Virtualbox.
 
+## What you get
+
+Once you import and start the Virtual Machine, you should see a desktop looking like this:
+
+![virtualbox_android-cm14_03_02_2018_08_20_27](https://user-images.githubusercontent.com/13379978/35762346-21e87046-08bb-11e8-8b67-d029f244f072.png)
+
+This is a [Taskbar](https://play.google.com/store/apps/details?id=com.farmerbb.taskbar) desktop.
+
+* The initial setup has been done
+* Location Services and "Send Data to Google or Lineage" are disabled
+
+
+
+
 The eventual goal is to create boxes of various Android OS versions with [Packer](https://www.packer.io/docs/builders/virtualbox-ovf.html).
 
 ## Why would I need this?

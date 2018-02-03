@@ -23,7 +23,9 @@ This is a [Taskbar](https://play.google.com/store/apps/details?id=com.farmerbb.t
 * The initial setup has been done
 * Location Services and "Send Data to Google or Lineage" are disabled
 
+## Troubleshooting
 
+See [TROUBLESHOOTING.md](TROUBLESHOOTING.md).
 
 
 The eventual goal is to create boxes of various Android OS versions with [Packer](https://www.packer.io/docs/builders/virtualbox-ovf.html).
